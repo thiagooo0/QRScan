@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ehang.testappscan.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="960sp"
+        android:layout_height="720sp"
+        android:layout_centerInParent="true" />
+
+    <com.ehang.testappscan.qrcode.ViewfinderView
+        android:id="@+id/finder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>
