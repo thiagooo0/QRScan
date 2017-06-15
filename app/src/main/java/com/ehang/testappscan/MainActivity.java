@@ -12,11 +12,11 @@ import com.ehang.testappscan.qrcode.ScanQRUtil;
 import com.ehang.testappscan.qrcode.ViewfinderView;
 
 /**
- *
+ * welcome
  */
 public class MainActivity extends BaseActivity implements OnScanQRCodeListener {
-    FrameLayout frameLayout;
-    ScanQRUtil scanQRUtil;
+    private FrameLayout frameLayout;
+    private ScanQRUtil scanQRUtil;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
