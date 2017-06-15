@@ -7,8 +7,8 @@
 
     <FrameLayout
         android:id="@+id/framelayout"
-        android:layout_width="960sp"
-        android:layout_height="720sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_centerInParent="true" />
 
     <com.ehang.testappscan.qrcode.ViewfinderView
